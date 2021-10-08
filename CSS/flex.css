@@ -8,12 +8,12 @@
 }
 
 /******************
-*** Flex grow ********
+*** Flex ********
 **********************/
 
-.flex-grow {
-    flex-grow: 1;
-}
+.flex-grow { flex-grow: 1;}
+.flex-column {flex-direction: column;}
+.flex-row { flex-direction: row;}
 
 /*********************
 *** Align & Justify ***
@@ -22,3 +22,13 @@
     justify-content: space-between;
     
 }
+
+/*************************
+*** Align items center ***
+**************************/
+.align-items-center {
+    align-items: center;
+}
+
+
+
