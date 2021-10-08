@@ -17,7 +17,7 @@
     --color-dark-transparent:rgba(0, 0, 0, 0.2);
 
     /*************
-    *** Display***
+    *** Displays***
     *************/
     --display-xxs: 1rem;
     --display-xs: 1.4rem;
@@ -28,14 +28,14 @@
     --display-xxl: 3rem;
 
     /*****************
-    *** Lineheight ***
+    *** Lineheights ***
     *****************/
     --line-height-sm: 1rem;
     --line-height-md: 1.6rem;
     --line-height-lg: 3rem;
 
     /***************
-    *** Distance ***
+    *** Distances ***
     ***************/
     --distance-0: 0rem;
     --distance-1: .25rem;
@@ -55,11 +55,58 @@
     --distance-15: 4rem;
 
     /*************
-    *** Shadow ***
+    *** Shadows ***
     *************/
     --shadow-small-light: .15rem .15rem 0 rgba(0, 0, 0, .1);
     --shadow-large-light: .25rem .25rem 0 rgba(0, 0, 0, .1);
+
+/*******************
+*** BORDERS ***
+*******************/
+--border-xs-white: 0.1 rem solid var(--color-white);
+--border-xs: .1rem solid var(--color-light);
+--border-sm: .2rem solid var(--color-light);
+--border-lg: .4rem solid var(--color-white);
+--border-radius-sm: .25rem;
+--border-success: .2rem solid var(--border-color-success);
+--border-transparent: .1 solid var(--color-transparent);
+
 }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /*1 rem = 10px, 10px/16px = 62.5% */
+ }
+
+ body {
+     font-family: "open Sans", sans-serif;
+     font-weight: 400;
+     line-height: 1.6;
+     color: var(--color-dark);
+     font-size: var(--display-sm);
+     min-height: 100vh;
+ }
+
+.h1, h2, h3, h4, h5, h6 {
+    font-family: "Dosis", "open Sans", sans-serif;
+    font-weight: 700;
+    letter-spacing: .05rem;
+}
+.h1, h1 {
+    font-size: var(--distance-13);
+}
+
 /************************
 *** Background Colors ***
 ************************/
@@ -104,9 +151,7 @@
 .border-color-white {border-color: var(--color-white)!important;}
 .border-color-cozy {border-color: var(--color-cozy)!important;}
 
-* {
-    box-sizing: border-box;
-  }
+
 
 .wrap-site {
     width: 100%;
@@ -151,35 +196,5 @@ nav > ul > li > a {
 
 .slider {
     max-width: 100%;
-}
-
-.flexbox-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: white;
-    
-
-}
-
-.flexbox-container > div {
-    background-color:yellow;
-    margin: 20px;
-    padding: 20px;
-    font-size: 30;
-}
-
-.flexbox-container > div > i {
-    float: left;
-    
-   
-}
-
-.flexbox-container > div > h1 {
-    text-align: center;
-}
-
-.flexbox-container > div > p {
-    text-align: right;
 }
 
