@@ -7,34 +7,18 @@
     display: flex;
 }
 
+/******************
+*** Flex grow ********
+**********************/
+
 .flex-grow {
     flex-grow: 1;
 }
 
-.flexbox-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: white;
+/*********************
+*** Align & Justify ***
+***********************/
+.justify-content-between {
+    justify-content: space-between;
     
-}
-
-.flexbox-container > div {
-    background-color:yellow;
-    margin: 20px;
-    padding: 20px;
-    font-size: 30;
-}
-
-.flexbox-container > div > i {
-    float: left;
-   
-}
-
-.flexbox-container > div > h1 {
-    text-align: center;
-}
-
-.flexbox-container > div > p {
-    text-align: right;
 }
