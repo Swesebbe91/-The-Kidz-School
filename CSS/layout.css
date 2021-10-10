@@ -130,11 +130,11 @@ nav div a:not(:first-child) {
 /* .slider-animation {animation: 30s slider-keyframes infinite; } */
 
 @keyframes slider-keyframes {
-    0% {left: 0% ;}
-    15% {left: -100%; }
-    30% {left: -200%; }
-    45% {left: -300%; }
-    60% {left: -200%; }
-    75% {left: -100%; }
-    100% {left: 0%; }
+    0% { left: 0% ;}
+    15% { left: -100%; }
+    30%  {left: -200%; }
+    45% { left: -300%; }
+    60% { left: -200%; }
+    75% { left: -100%; }
+    100% { left: 0%; }
 }
