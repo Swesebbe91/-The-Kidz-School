@@ -34,6 +34,11 @@
 .mt-15, .my-15 {margin-top: var(--distance-15);} /*4 rem */
 .mb-15, .my-15 {margin-bottom: var(--distance-15)}
 
+.mr-4, .mx-4 {margin-right: var(--distance-4);}
+.ml-4, .mx-4 {margin-left: var(--distance-4);}
+.mr-6, .mx-6 {margin-right: var(--distance-6);}
+.ml-6, .mx-6 {margin-left: var(--distance-6);}
+
 /*****************
 *** Padding ***
 ****************/
@@ -107,3 +112,4 @@ nav div a:not(:first-child) {
 ***************/
 .border-small-white {border:var(--border-xs-white);}
 .rounded-corners {border-radius:var(--border-radius-sm);}
+.border-bottom-xs {border-bottom: var(--border-xs);}
