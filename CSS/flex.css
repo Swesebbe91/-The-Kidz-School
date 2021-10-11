@@ -14,11 +14,13 @@
 .flex-row-reverse { flex-direction: row-reverse;}
 .flex-wrap {flex-wrap: wrap;}
 
+
 /*********************
 *** Align & Justify ***
 ***********************/
-.justify-content-between { justify-content: space-between;}
-.justify-content-center {justify-content: center;}
+.justify-content-between { justify-content: space-between; }
+.justify-content-center {justify-content: center; }
+.justify-content-around {justify-content: space-around; }
 
 /*************************
 *** Align items center ***

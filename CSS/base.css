@@ -12,7 +12,7 @@
     --color-dark:#343a40;
     --color-white:#ffff;
     --color-cozy:#ea77ad;
-    --color-red: #e71414;
+    --color-stop: #e71414;
     --color-gold: #f1c80fce;
     --color-silver: #f5e2e2;
     --color-transparent:transparent;
@@ -128,7 +128,7 @@ html {
 .bg-dark-transparent {background-color: var(--color-dark-transparent);}
 .bg-gold {background-color:var(--color-gold)}
 .bg-silver {background-color: var(--color-silver);}
-.bg-red {background-color: var(--color-red);}
+.bg-stop {background-color: var(--color-stop);}
 
 /******************
 *** Text Colors ***
@@ -145,7 +145,7 @@ html {
 .text-cozy{color: var(--color-cozy);}
 .text-gold {color:var(--color-gold)}
 .text-silver {color: var(--color-silver);}
-.text-red {color: var(--color-red);}
+.text-stop {color: var(--color-stop);}
 
 /*******************
 *** Border Colors***

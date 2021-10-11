@@ -54,8 +54,8 @@
 .p-5 { padding: var(--distance-5); }
 .p-6 { padding: var(--distance-6); }
 .p-8 { padding: var(--distance-8); }
-.p12 { padding: var(--distance-12); }
-.p16 { padding: var(--distance-16); } 
+.p-12 { padding: var(--distance-12); }
+.p-16 { padding: var(--distance-16); } 
 
 
 .pr-4, .px-4 { padding-right: var(--distance-4); }
@@ -87,8 +87,8 @@
 /******************
 ***** Circle *****
 *****************/
-.circle { border-radius: 100%;}
-
+.circle { border-radius: 100%; }
+.circle-lg {width: 15rem; height: 15rem; }
 
 
 /******************
@@ -162,3 +162,6 @@ nav div a:not(:first-child) {
 **************/
 .icon-feature { width: 7.6rem; height: 7.6rem; padding: 0.375rem; }
 .icon-circle { width: 6.2rem; height: 6.2rem; line-height: 6rem; }
+
+
+
