@@ -117,6 +117,7 @@
 .logo-width { max-width: 13rem; }
 .img-lg-width {max-width: 60%; }
 
+
 /****************
 *** Buttons ***
 **************/
@@ -147,7 +148,7 @@ nav div a:not(:first-child) {
 .slider-width { width: 400%;} /*100% per image */
 .slider-container { width: 25%;} /* display first of four images */
 .slider-image { width: 100%; object-fit: cover; }
-/* .slider-animation {animation: 30s slider-keyframes infinite; } */
+.slider-animation {animation: 30s slider-keyframes infinite; }
 
 @keyframes slider-keyframes {
     0% { left: 0% ;}
